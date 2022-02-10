@@ -1,0 +1,23 @@
+{
+    "website" : {
+      "support": "https://discord.gg/GURMmubXks",
+      "domain": "https://Pelayan-1.caliwyr.repl.co"
+    },
+    "config": {
+        "http": {
+          "port": 80
+        },
+        "https": {
+            "paths": {
+                "privkey": "/etc/letsencrypt/live/your-domain.com/privkey.pem",
+                "fullchain": "/etc/letsencrypt/live/your-domain.com/fullchain.pem",
+                "chain": "/etc/letsencrypt/live/your-domain.com/chain.pem"
+            },
+            "enabled": false,
+            "port": 443
+        },
+        "callback": "https://Pelayan-1.caliwyr.repl.co/callback",
+        "clientID": "",
+        "secret": ""
+    }
+  }
